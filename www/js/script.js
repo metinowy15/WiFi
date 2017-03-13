@@ -3,7 +3,8 @@ var Pojemnik;
 
 function start() {
     Pojemnik = document.getElementById("polaczenie");
-    Pojemnik.innerHTML += "Test1";
+    Pojemnik.innerHTML += "Test1 " + navigator.connection.type;
+
     init();
 
 }
@@ -26,7 +27,7 @@ function gotowe() {
 function zwrocPolaczenie() {
 
 
-    var twojePolaczenie = connection.type;
+    var twojePolaczenie = navigator.connection.type;
 
     var polaczenia = {};
 
