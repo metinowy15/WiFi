@@ -10,10 +10,8 @@
 		Koziol Ziom
 	</author>
 	<platform name="android">
-
-
-	<splash src="www/img/img1.png" />
-	<icon src="www/img/ico.png" />
+	<splash src="www/img/img1.png" density="land-hdpi"/>
+	<icon src="www/img/ico.png" density="mdpi"/>
 </platform>
 	
 	<plugin name="cordova-plugin-device" spec="~1.1.4" />
