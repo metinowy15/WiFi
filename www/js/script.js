@@ -11,8 +11,11 @@ function start() {
 
 function init() {
 
-
+    navigator.splashscreen.show();
     document.addEventListener("deviceready", gotowe, false);
+    setTimeout(function() {
+        navigator.splashscreen.hide();
+    }, 2000);
 }
 
 
